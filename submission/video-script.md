@@ -36,6 +36,6 @@
 **1:20–1:27 — Close**
 “Local fixture demo complete. Google Cloud deployment, live Gemini evidence, users, and revenue remain unverified.”
 
-Captured artifact: `output/video/sessionproof-local-fixture-demo.webm` (86.76 seconds, 1280×720). The ignored local output must be uploaded unchanged to an approved public video host before the URL can be added to the submission. It is an honest product walkthrough, but it does not satisfy the separate production Google Cloud, deployed Gemini, customer, or revenue evidence gates.
+Captured artifact: `output/video/sessionproof-local-fixture-demo.webm` (86.76 seconds, 1280×720). It was uploaded unchanged and published at https://youtu.be/efN_EcEn03w. It is an honest product walkthrough, but it does not satisfy the separate production Google Cloud, deployed Gemini, customer, or revenue evidence gates.
 
 No copyrighted music, real artist files, private customer data, fake metrics, or unverified production claims are present.

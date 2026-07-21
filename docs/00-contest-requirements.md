@@ -7,7 +7,7 @@ Primary sources: [official page](https://xprize.devpost.com/), [official rules](
 | Requirement            | Verified rule                                                                                                                                 | SESSIONPROOF status                                                                           |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | Submission period      | May 19, 2026 10:00 PDT to Aug 17, 2026 13:00 PDT (Aug 18, 2026 05:00 KST)                                                                     | Project files created July 22; public Git history now preserves forward provenance            |
-| Eligibility            | Adult individuals, teams of eligible individuals, and organizations with fewer than 25 employees; geographic and conflict exclusions apply    | Entrant identity/residency/age must be confirmed by the user                                  |
+| Eligibility            | Adult individuals, teams of eligible individuals, and organizations with fewer than 25 employees; geographic and conflict exclusions apply    | Solo personal entrant completed the Devpost eligibility/rules self-attestation on July 22     |
 | New project            | Business must be newly created after May 19; generic templates/frameworks may be disclosed                                                    | New SESSIONPROOF directory; no prior SESSIONPROOF code found                                  |
 | Categories             | Education & Human Potential; Entrepreneurship & Job Creation; Small Business Services; Money & Financial Access; Professional Services Access | Entrepreneurship & Job Creation is the working category                                       |
 | Google Cloud           | Use at least one Google Cloud product and run on the intended platform                                                                        | Cloud Run/Firestore/Storage/Secret Manager code exists; live use unverified                   |
@@ -19,7 +19,7 @@ Primary sources: [official page](https://xprize.devpost.com/), [official rules](
 | User evidence          | User counts, high-level user breakdown, feedback/testimonials with user awareness                                                             | Not achieved or evidenced                                                                     |
 | Agent/product evidence | Logs, API usage records, dashboards, production playbook evidence                                                                             | Fixture trace exists; production evidence absent                                              |
 | Code repository        | Public with license or private shared with testing@devpost.com and judging@hacker.fund                                                        | Public MIT-licensed repository: https://github.com/estona815/sessionproof                     |
-| Video                  | Under 3 minutes; actual product on target device; public YouTube/Vimeo/Youku; authorized assets only                                          | Script drafted; video absent                                                                  |
+| Video                  | Under 3 minutes; actual product on target device; public YouTube/Vimeo/Youku; authorized assets only                                          | Public 1:27 local-fixture walkthrough: https://youtu.be/efN_EcEn03w                           |
 | Description            | Explain requirements and category relevance                                                                                                   | Drafted                                                                                       |
 | Organization ID        | Required if entering as an organization                                                                                                       | [OFFICIAL RECHECK REQUIRED] based on entrant type                                             |
 | Test access            | Working project free and unrestricted through the judging period; credentials if private                                                      | Local demo works; public judge access absent                                                  |
@@ -33,7 +33,7 @@ Primary sources: [official page](https://xprize.devpost.com/), [official rules](
 - No arms-length revenue or real user evidence.
 - Reusing a pre-period business or failing to document framework/boilerplate use.
 - Calling fixture extraction “Gemini production evidence.”
-- Missing deployed Gemini call, Google Cloud use, public demo, repository access, or financial evidence.
+- Missing deployed Gemini call, Google Cloud use, public judge access, or financial evidence.
 - Unlicensed music/trademarks, fabricated evidence, private customer information, or unresponsive verification requests.
 
 Rules can change. Recheck the official pages immediately before submission and mark changed/ambiguous fields `[OFFICIAL RECHECK REQUIRED]`.

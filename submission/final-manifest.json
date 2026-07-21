@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-22T02:15:52+09:00",
+  "generatedAt": "2026-07-22T02:37:09+09:00",
   "project": "SESSIONPROOF",
   "category": "Entrepreneurship & Job Creation",
   "repositoryUrl": "https://github.com/estona815/sessionproof",
   "productionUrl": null,
-  "videoUrl": null,
+  "videoUrl": "https://youtu.be/efN_EcEn03w",
   "productReady": false,
   "businessEvidenceReady": false,
   "submissionReady": false,
@@ -37,11 +37,10 @@
     "testimonialConsentCount": 0
   },
   "blockingConditions": [
-    "Entrant eligibility and representative not recorded",
     "Google Cloud deployment and service round trips not verified",
     "Deployed Gemini API call not verified",
     "Real users, arms-length revenue, costs, and feedback absent",
-    "Public under-three-minute video absent",
-    "Production authentication, deletion, and isolation incomplete"
+    "Production authentication, deletion, and isolation incomplete",
+    "Devpost project creation is awaiting the interactive reCAPTCHA; final submission is incomplete"
   ]
 }

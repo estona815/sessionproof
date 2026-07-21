@@ -6,4 +6,4 @@
 | AI-Native Operations | Bounded agent stages, tool trace, structured Gemini adapter, deterministic recompute | No live deployed Gemini/agent evidence | Deploy and capture repeated production runs with provider usage          |
 | Category Impact      | Specific creator-business problem and professional work-evidence output              | No real outcome measurement            | Measure prevented omissions/time saved and obtain consented testimonials |
 
-Eligibility risk remains high until new-project provenance, Google Cloud use, Gemini call, working public access, users, revenue, repository, video, and financial evidence are verified.
+New-project provenance, the public repository, the public video, and the Devpost eligibility self-attestation are recorded. Risk remains high until Google Cloud use, a deployed Gemini call, working public access, users, revenue, and financial evidence are verified.

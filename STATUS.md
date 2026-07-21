@@ -1,6 +1,6 @@
 # Product status
 
-Updated: 2026-07-22T02:00:58+09:00
+Updated: 2026-07-22T02:37:09+09:00
 
 ## Implemented
 
@@ -15,6 +15,8 @@ Updated: 2026-07-22T02:00:58+09:00
 - Pricing hypothesis, pilot consent intake, trust page, honest operator metrics, financial/customer templates.
 - Reproducible desktop/mobile screenshots and production-shaped Cloud Run deployment assets.
 - Public MIT-licensed Git repository with project-specific history at https://github.com/estona815/sessionproof.
+- Public 86.76-second local-fixture product walkthrough at https://youtu.be/efN_EcEn03w.
+- Devpost registration as a solo personal entrant with the eligibility/rules self-attestation accepted.
 
 ## Locally verified
 
@@ -24,6 +26,7 @@ Updated: 2026-07-22T02:00:58+09:00
 - Browser QA at 1440×900 and 390×844 verified the agent run, 18/100 blocker state, evidence inspector, and fixture acknowledgement with zero console errors/warnings.
 - The sample validator reproduces 7 sources → 26 fragments → 25 supported claims → 12 conflicts → 18/100 BLOCKED.
 - CSV, JSON, Markdown, and a visually inspected two-page PDF export were generated successfully.
+- YouTube Studio reports the 1:27 SESSIONPROOF walkthrough as public and published on July 22, 2026.
 
 ## Not verified
 
@@ -32,7 +35,7 @@ Updated: 2026-07-22T02:00:58+09:00
 - Live Gemini structured call and API usage record.
 - Email magic-link authentication and production deletion workflow.
 - Actual customers, arms-length revenue, feedback, testimonials, costs, or marketing spend.
-- Public demo video and final Devpost submission.
+- Devpost project creation and final submission; project creation is currently waiting at the interactive reCAPTCHA.
 
 ## Gates
 

@@ -15,4 +15,6 @@ Economic impact comes from helping independent creators preserve contributor wor
 **Built with:** Next.js, TypeScript, React, Zod, Google Gen AI SDK, Cloud Run, Firestore, Cloud Storage, Secret Manager, Vertex AI Gemini, pdf-lib, Vitest, Playwright.  
 **Repository:** https://github.com/estona815/sessionproof
 **Demo:** `[PRODUCTION URL REQUIRED]`  
-**Video:** `[PUBLIC VIDEO URL REQUIRED]`
+**Video:** https://youtu.be/efN_EcEn03w
+
+Devpost registration was completed on July 22, 2026 as a solo personal entrant with the eligibility/rules attestation accepted. Project creation and final submission remain incomplete.

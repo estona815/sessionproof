@@ -5,7 +5,7 @@
 - [x] No-login Guided Demo and sample exports
 - [x] Gemini/GCP adapter architecture and evidence boundary
 - [x] Draft description, business narrative, video script, testing instructions, P&L/customer templates
-- [ ] Eligible entrant identity/team representative confirmed
+- [x] Solo personal entrant and Devpost eligibility/rules self-attestation confirmed
 - [x] Project-specific public Git history and repository URL
 - [ ] Cloud Run public URL and judge access through judging end
 - [ ] Live Google Cloud service evidence
@@ -13,5 +13,5 @@
 - [ ] Real consenting users, feedback, and testimonials
 - [ ] Arms-length revenue, monthly revenue, related-party separation, costs, marketing spend
 - [ ] Production auth, upload, confirmation, deletion, and isolation tests
-- [ ] Under-three-minute public video
+- [x] Under-three-minute public video: https://youtu.be/efN_EcEn03w
 - [ ] Final official rule recheck and Devpost submission
