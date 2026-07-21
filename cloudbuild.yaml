@@ -1,0 +1,23 @@
+substitutions:
+  _REGION: us-central1
+  _SERVICE: sessionproof
+
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args: ["build", "-t", "${_REGION}-docker.pkg.dev/$PROJECT_ID/sessionproof/app:$COMMIT_SHA", "."]
+  - name: gcr.io/cloud-builders/docker
+    args: ["push", "${_REGION}-docker.pkg.dev/$PROJECT_ID/sessionproof/app:$COMMIT_SHA"]
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - ${_SERVICE}
+      - --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/sessionproof/app:$COMMIT_SHA
+      - --region=${_REGION}
+      - --platform=managed
+      - --allow-unauthenticated
+      - --service-account=sessionproof-runtime@$PROJECT_ID.iam.gserviceaccount.com
+      - --set-env-vars=APP_MODE=production,AI_MODE=gemini,STORAGE_MODE=gcp,GEMINI_BACKEND=vertex,GOOGLE_CLOUD_PROJECT=$PROJECT_ID,GOOGLE_CLOUD_LOCATION=global
+images:
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/sessionproof/app:$COMMIT_SHA

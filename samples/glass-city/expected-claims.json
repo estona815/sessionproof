@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0.0",
+  "expectedClaimCount": 25,
+  "requiredClaimIds": [
+    "claim_nova_composition",
+    "claim_jules_alias",
+    "claim_sora_composition_25",
+    "claim_sora_composition_20",
+    "claim_lena_role",
+    "claim_theo_role",
+    "claim_title_current",
+    "claim_title_old",
+    "claim_sample"
+  ]
+}

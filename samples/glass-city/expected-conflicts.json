@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "expectedConflictCount": 12,
+  "expectedReadiness": { "score": 18, "status": "BLOCKED" },
+  "requiredRuleIds": [
+    "RULE_COMPOSITION_SPLIT_TOTAL",
+    "RULE_CONTRIBUTOR_DUPLICATE",
+    "RULE_CONTRIBUTOR_MISSING",
+    "RULE_PERCENTAGE_CONFLICT",
+    "RULE_TITLE_CONSISTENCY",
+    "RULE_ROLE_CONSISTENCY",
+    "RULE_SAMPLE_MENTION_REVIEW",
+    "RULE_OUTDATED_SOURCE",
+    "RULE_SPLIT_TYPE_SEPARATION",
+    "RULE_UNCONFIRMED_CONTRIBUTOR"
+  ]
+}

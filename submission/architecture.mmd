@@ -1,0 +1,13 @@
+flowchart LR
+  Browser --> CloudRun[Cloud Run / Next.js]
+  CloudRun --> Storage[Private Cloud Storage]
+  CloudRun --> Firestore
+  CloudRun --> Gemini[Vertex AI Gemini]
+  Gemini --> Validation[Zod + exact quote validation]
+  Validation --> Rules[Deterministic rules/readiness]
+  Rules --> Firestore
+  Rules --> Pack[JSON / CSV / Markdown / PDF]
+  Pack --> Storage
+  CloudRun --> Logging[Redacted Cloud Logging]
+  SecretManager --> CloudRun
+

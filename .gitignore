@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+ops/private/
+output/
+tmp/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.log
+.DS_Store

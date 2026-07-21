@@ -1,0 +1,2 @@
+transaction_id,date,anonymized_customer_id,product,amount_original_minor,currency,amount_usd_minor,fx_date,fx_source,payment_provider,provider_reference,arms_length,related_party,refunded,refund_at,evidence_private_reference
+

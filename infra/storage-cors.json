@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["https://REPLACE_WITH_CLOUD_RUN_OR_CUSTOM_DOMAIN"],
+    "method": ["GET", "PUT", "HEAD"],
+    "responseHeader": ["Content-Type", "x-goog-hash"],
+    "maxAgeSeconds": 300
+  }
+]

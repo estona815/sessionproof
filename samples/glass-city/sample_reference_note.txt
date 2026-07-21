@@ -1,0 +1,4 @@
+Possible source: old jazz loop from an unlabelled folder.
+Clearance and interpolation status: not reviewed.
+Do not infer legal clearance from this note.
+
