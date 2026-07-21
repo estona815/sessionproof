@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0",
+  "recordedAt": "2026-07-22T02:50:00+09:00",
+  "project": "SESSIONPROOF",
+  "mode": "local_fixture",
+  "fixture": "GLASS CITY",
+  "provider": "deterministic_fixture",
+  "geminiCalls": 0,
+  "productionDeploymentVerified": false,
+  "sources": 7,
+  "fragments": 26,
+  "supportedClaims": 25,
+  "openConflicts": 12,
+  "readinessScore": 18,
+  "readinessStatus": "BLOCKED",
+  "compositionTotalBasisPoints": 11000,
+  "tests": {
+    "unit": { "passed": 9, "failed": 0 },
+    "integration": { "passed": 1, "failed": 0 },
+    "security": { "passed": 5, "failed": 0 },
+    "e2eFlows": { "passed": 4, "failed": 0 }
+  },
+  "publicVideo": "https://youtu.be/efN_EcEn03w",
+  "repository": "https://github.com/estona815/sessionproof",
+  "disclosure": "Local fictional fixture only; no live Gemini or Google Cloud production evidence."
+}

@@ -1,0 +1,1278 @@
+{
+  "schemaVersion": "1.0.0",
+  "project": {
+    "projectId": "project_glass_city",
+    "title": "GLASS CITY",
+    "artist": "NOVA RHEE",
+    "mode": "fixture"
+  },
+  "sourceInventory": [
+    {
+      "sourceDocumentId": "src_chat",
+      "filename": "fictional_session_chat.txt",
+      "mimeType": "text/plain",
+      "version": 2,
+      "isLatest": true,
+      "contentHash": "549adeca4ff062d05c10e060e5be9bae3afc824a8bde3021b657b75574600efb",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "sourceDocumentId": "src_credit_v1",
+      "filename": "credit_draft_v1.csv",
+      "mimeType": "text/csv",
+      "version": 1,
+      "isLatest": false,
+      "contentHash": "88ef94412df94ac1d99d6bf4475aafe577979e09d207cab9122cf880725b4606",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "sourceDocumentId": "src_email",
+      "filename": "producer_email.txt",
+      "mimeType": "text/plain",
+      "version": 2,
+      "isLatest": true,
+      "contentHash": "ab610d59f4b539ab050487def7224962a2a79dda8afa2a27d95f712651967e30",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "sourceDocumentId": "src_notes",
+      "filename": "session_notes.md",
+      "mimeType": "text/markdown",
+      "version": 3,
+      "isLatest": true,
+      "contentHash": "6c8d126688710162a0b9d2eeba22dc5cf50a49f42f6f98e43ecb8f582018858b",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "sourceDocumentId": "src_invoice",
+      "filename": "invoice_summary.csv",
+      "mimeType": "text/csv",
+      "version": 1,
+      "isLatest": true,
+      "contentHash": "ea38fad530003daa21a4e2528e6127ab7099efa726116b2e7d56b205345efa3b",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "sourceDocumentId": "src_metadata",
+      "filename": "release_metadata.json",
+      "mimeType": "application/json",
+      "version": 4,
+      "isLatest": true,
+      "contentHash": "c8cea3ccd1f89956393cad89679c82254023e7e0dba9cac8ceffa73dc11581e2",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "sourceDocumentId": "src_sample",
+      "filename": "sample_reference_note.txt",
+      "mimeType": "text/plain",
+      "version": 1,
+      "isLatest": true,
+      "contentHash": "e989cd4d2460cfb60985a608fb35d584cff3737f05f8be57addfd93dcd1bb028",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    }
+  ],
+  "fragments": [
+    {
+      "fragmentId": "frag_src_chat_1_0d31651c",
+      "sourceDocumentId": "src_chat",
+      "page": null,
+      "row": null,
+      "lineStart": 1,
+      "lineEnd": 1,
+      "boundingBox": null,
+      "text": "[2026-07-02 20:14] Nova: GLASS CITY writing: Nova 50%, Jules 35%, Sora 25%.",
+      "normalizedText": "[2026-07-02 20:14] Nova: GLASS CITY writing: Nova 50%, Jules 35%, Sora 25%.",
+      "contentHash": "0d31651c44d61adf867e1528fe717f11529fea541f34398cd21bd0f9233c3473",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_chat_2_f8f7c783",
+      "sourceDocumentId": "src_chat",
+      "page": null,
+      "row": null,
+      "lineStart": 2,
+      "lineEnd": 2,
+      "boundingBox": null,
+      "text": "[2026-07-02 20:16] Sora: I thought my composition share was 20%?",
+      "normalizedText": "[2026-07-02 20:16] Sora: I thought my composition share was 20%?",
+      "contentHash": "f8f7c783ffd84a406e182c20f835942d0a2b8414eb24d549c297a38884e4a611",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_chat_3_d77a5d5e",
+      "sourceDocumentId": "src_chat",
+      "page": null,
+      "row": null,
+      "lineStart": 3,
+      "lineEnd": 3,
+      "boundingBox": null,
+      "text": "[2026-07-02 20:19] Jules: Lena Cho sang the featured vocal and should be credited.",
+      "normalizedText": "[2026-07-02 20:19] Jules: Lena Cho sang the featured vocal and should be credited.",
+      "contentHash": "d77a5d5ed1dfcb38ac2e14a6239d1ef70c7c039502d3447567820bd28cbabbc3",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_chat_4_85b8be51",
+      "sourceDocumentId": "src_chat",
+      "page": null,
+      "row": null,
+      "lineStart": 4,
+      "lineEnd": 4,
+      "boundingBox": null,
+      "text": "[2026-07-02 20:22] Jules: You can list me as J. Han on the final credits.",
+      "normalizedText": "[2026-07-02 20:22] Jules: You can list me as J. Han on the final credits.",
+      "contentHash": "85b8be512467e89be7ec76bbebeb57195f686f620cee5fd1ba224747cf064acc",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_chat_5_57ad67d0",
+      "sourceDocumentId": "src_chat",
+      "page": null,
+      "row": null,
+      "lineStart": 5,
+      "lineEnd": 5,
+      "boundingBox": null,
+      "text": "[2026-07-02 20:31] Nova: We used that old jazz loop; sample status still needs review.",
+      "normalizedText": "[2026-07-02 20:31] Nova: We used that old jazz loop; sample status still needs review.",
+      "contentHash": "57ad67d0f692a3e94078ad84b424bb05c6f6684d6c297cfcacd06ffb0ef6481d",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_chat_6_99881959",
+      "sourceDocumentId": "src_chat",
+      "page": null,
+      "row": null,
+      "lineStart": 6,
+      "lineEnd": 6,
+      "boundingBox": null,
+      "text": "[2026-07-02 20:35] Nova: Theo Lim mixed the record.",
+      "normalizedText": "[2026-07-02 20:35] Nova: Theo Lim mixed the record.",
+      "contentHash": "99881959cda6eb1236faadcfbd149b89b99ec62b868538efd03a6a62434cda21",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_credit_v1_1_e62dfeb9",
+      "sourceDocumentId": "src_credit_v1",
+      "page": null,
+      "row": 1,
+      "lineStart": 1,
+      "lineEnd": 1,
+      "boundingBox": null,
+      "text": "title,contributor,role,composition_split,master_ownership,credit_wording",
+      "normalizedText": "title,contributor,role,composition_split,master_ownership,credit_wording",
+      "contentHash": "e62dfeb9dfeb5f8dbd5e496dd35d713a295345639b0cd0bd7dc46f41da0519e7",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_credit_v1_2_afd8e7e4",
+      "sourceDocumentId": "src_credit_v1",
+      "page": null,
+      "row": 2,
+      "lineStart": 2,
+      "lineEnd": 2,
+      "boundingBox": null,
+      "text": "CITY OF GLASS,Nova Rhee,writer,50%,50%,Written by Nova Rhee",
+      "normalizedText": "CITY OF GLASS,Nova Rhee,writer,50%,50%,Written by Nova Rhee",
+      "contentHash": "afd8e7e4f6f9974bb44b47ad2f7d504cebd4c7122a85000e001cf33041f1cbe1",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_credit_v1_3_720deeee",
+      "sourceDocumentId": "src_credit_v1",
+      "page": null,
+      "row": 3,
+      "lineStart": 3,
+      "lineEnd": 3,
+      "boundingBox": null,
+      "text": "CITY OF GLASS,Jules Han,producer,35%,30%,Produced by Jules Han",
+      "normalizedText": "CITY OF GLASS,Jules Han,producer,35%,30%,Produced by Jules Han",
+      "contentHash": "720deeee5aedc0d04d0a9ecb29e120e86c4238be6387c6f87623b575588b2a64",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_credit_v1_4_8db14b2f",
+      "sourceDocumentId": "src_credit_v1",
+      "page": null,
+      "row": 4,
+      "lineStart": 4,
+      "lineEnd": 4,
+      "boundingBox": null,
+      "text": "CITY OF GLASS,Sora Kim,writer,25%,20%,Written by Sora Kim",
+      "normalizedText": "CITY OF GLASS,Sora Kim,writer,25%,20%,Written by Sora Kim",
+      "contentHash": "8db14b2f47107fa4ddfc017a98e9dcdf773647cc73b6d4b239d0f7f54217cfed",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_credit_v1_5_b20c3f1b",
+      "sourceDocumentId": "src_credit_v1",
+      "page": null,
+      "row": 5,
+      "lineStart": 5,
+      "lineEnd": 5,
+      "boundingBox": null,
+      "text": "CITY OF GLASS,Theo Lim,mixing engineer,,0%,",
+      "normalizedText": "CITY OF GLASS,Theo Lim,mixing engineer,,0%,",
+      "contentHash": "b20c3f1bc0eb5340ede79a51143baf432e47d7726f53d9c789efc18844816b75",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_email_1_461573bd",
+      "sourceDocumentId": "src_email",
+      "page": null,
+      "row": null,
+      "lineStart": 1,
+      "lineEnd": 1,
+      "boundingBox": null,
+      "text": "Subject: GLASS CITY final credit notes",
+      "normalizedText": "Subject: GLASS CITY final credit notes",
+      "contentHash": "461573bd2d654fd8e2276ab00d9714db100c989a7704f1e6891acdb58f794ed7",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_email_2_ecd203f1",
+      "sourceDocumentId": "src_email",
+      "page": null,
+      "row": null,
+      "lineStart": 2,
+      "lineEnd": 2,
+      "boundingBox": null,
+      "text": "Jules Han is both producer and writer on GLASS CITY.",
+      "normalizedText": "Jules Han is both producer and writer on GLASS CITY.",
+      "contentHash": "ecd203f12124ff5e0932ce10749536f84e7aa0092a5524e2aecc7e9810d3619b",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_email_3_905d2eeb",
+      "sourceDocumentId": "src_email",
+      "page": null,
+      "row": null,
+      "lineStart": 3,
+      "lineEnd": 3,
+      "boundingBox": null,
+      "text": "Please use the display credit “Produced by Jules Han”.",
+      "normalizedText": "Please use the display credit “Produced by Jules Han”.",
+      "contentHash": "905d2eebd6c1bcf0020160d4e01f0de984163ad90821aa11127f44679f61e269",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_email_4_686207d2",
+      "sourceDocumentId": "src_email",
+      "page": null,
+      "row": null,
+      "lineStart": 4,
+      "lineEnd": 4,
+      "boundingBox": null,
+      "text": "I have not confirmed the final splits yet.",
+      "normalizedText": "I have not confirmed the final splits yet.",
+      "contentHash": "686207d226b0679db0d5bd78eb61fd628daa7d8bb66cbbf10acc30b29ec49e24",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_notes_1_d6c33f1b",
+      "sourceDocumentId": "src_notes",
+      "page": null,
+      "row": null,
+      "lineStart": 1,
+      "lineEnd": 1,
+      "boundingBox": null,
+      "text": "# GLASS CITY session notes",
+      "normalizedText": "# GLASS CITY session notes",
+      "contentHash": "d6c33f1b7afc70a43dd47ff2578a22da1bfab40a68049d083607752fa6b48b44",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_notes_2_81f3d5d8",
+      "sourceDocumentId": "src_notes",
+      "page": null,
+      "row": null,
+      "lineStart": 2,
+      "lineEnd": 2,
+      "boundingBox": null,
+      "text": "Artist: NOVA RHEE",
+      "normalizedText": "Artist: NOVA RHEE",
+      "contentHash": "81f3d5d85979571b2a69febdcd4f6cc2ba010592a9481f7aab4c66bea8c7165f",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_notes_3_4c23e3c7",
+      "sourceDocumentId": "src_notes",
+      "page": null,
+      "row": null,
+      "lineStart": 3,
+      "lineEnd": 3,
+      "boundingBox": null,
+      "text": "Featured vocal recorded by Lena Cho.",
+      "normalizedText": "Featured vocal recorded by Lena Cho.",
+      "contentHash": "4c23e3c7b25f5a0118ee030a54fca345e3c07d21b2011eefacba642e70ac7983",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_notes_4_eb65a80f",
+      "sourceDocumentId": "src_notes",
+      "page": null,
+      "row": null,
+      "lineStart": 4,
+      "lineEnd": 4,
+      "boundingBox": null,
+      "text": "Theo Lim completed the mix on 2026-07-08.",
+      "normalizedText": "Theo Lim completed the mix on 2026-07-08.",
+      "contentHash": "eb65a80f7a06f5c5cbb7d6445cbe1f98694bce38b1c6f0f46bbdfcaeecbc10b9",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_notes_5_88406719",
+      "sourceDocumentId": "src_notes",
+      "page": null,
+      "row": null,
+      "lineStart": 5,
+      "lineEnd": 5,
+      "boundingBox": null,
+      "text": "Final contributor approval is still outstanding.",
+      "normalizedText": "Final contributor approval is still outstanding.",
+      "contentHash": "88406719ace72b1fb4087f118ae50e4ccfb9c07dcb0fb20545932992cf60709e",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_invoice_1_4fb52d67",
+      "sourceDocumentId": "src_invoice",
+      "page": null,
+      "row": 1,
+      "lineStart": 1,
+      "lineEnd": 1,
+      "boundingBox": null,
+      "text": "vendor,service,project,status",
+      "normalizedText": "vendor,service,project,status",
+      "contentHash": "4fb52d67d71c8b78cba5776dc266116f92bcccdd01fefc6fc2466d852b5245eb",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_invoice_2_aa19b74d",
+      "sourceDocumentId": "src_invoice",
+      "page": null,
+      "row": 2,
+      "lineStart": 2,
+      "lineEnd": 2,
+      "boundingBox": null,
+      "text": "Theo Lim,mixing services,GLASS CITY,paid",
+      "normalizedText": "Theo Lim,mixing services,GLASS CITY,paid",
+      "contentHash": "aa19b74d2d6709f753a5b93b4738f754aa8391d9749bab292eb309ee8a146e85",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_metadata_1_c8cea3cc",
+      "sourceDocumentId": "src_metadata",
+      "page": null,
+      "row": null,
+      "lineStart": 1,
+      "lineEnd": 1,
+      "boundingBox": null,
+      "text": "{\"title\":\"GLASS CITY\",\"primaryArtist\":\"NOVA RHEE\",\"featuredArtists\":[],\"releaseStatus\":\"draft\"}",
+      "normalizedText": "{\"title\":\"GLASS CITY\",\"primaryArtist\":\"NOVA RHEE\",\"featuredArtists\":[],\"releaseStatus\":\"draft\"}",
+      "contentHash": "c8cea3ccd1f89956393cad89679c82254023e7e0dba9cac8ceffa73dc11581e2",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_sample_1_26ccc2f8",
+      "sourceDocumentId": "src_sample",
+      "page": null,
+      "row": null,
+      "lineStart": 1,
+      "lineEnd": 1,
+      "boundingBox": null,
+      "text": "Possible source: old jazz loop from an unlabelled folder.",
+      "normalizedText": "Possible source: old jazz loop from an unlabelled folder.",
+      "contentHash": "26ccc2f85a5c8a241d17859b3178d9926b5c572cc70bab2cc74076f62cfca581",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_sample_2_924ba53e",
+      "sourceDocumentId": "src_sample",
+      "page": null,
+      "row": null,
+      "lineStart": 2,
+      "lineEnd": 2,
+      "boundingBox": null,
+      "text": "Clearance and interpolation status: not reviewed.",
+      "normalizedText": "Clearance and interpolation status: not reviewed.",
+      "contentHash": "924ba53e74553591df78b96035901f37fd72dcb32abd13a8338c3080b58129a6",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "fragmentId": "frag_src_sample_3_52a34331",
+      "sourceDocumentId": "src_sample",
+      "page": null,
+      "row": null,
+      "lineStart": 3,
+      "lineEnd": 3,
+      "boundingBox": null,
+      "text": "Do not infer legal clearance from this note.",
+      "normalizedText": "Do not infer legal clearance from this note.",
+      "contentHash": "52a34331ee28ae39eb1b6348d76bbb55fe54811048ded9aefac7e80d53bb5700",
+      "createdAt": "2026-07-22T00:00:00.000Z"
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "claim_nova_name",
+      "contributorCandidate": "Nova Rhee",
+      "claimType": "CONTRIBUTOR_NAME",
+      "value": "Nova Rhee",
+      "sourceFragmentId": "frag_src_credit_v1_2_afd8e7e4",
+      "sourceQuote": "Nova Rhee",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_nova_role",
+      "contributorCandidate": "Nova Rhee",
+      "claimType": "ROLE",
+      "value": "writer",
+      "sourceFragmentId": "frag_src_credit_v1_2_afd8e7e4",
+      "sourceQuote": "writer",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_nova_composition",
+      "contributorCandidate": "Nova Rhee",
+      "claimType": "PERCENTAGE",
+      "value": {
+        "basisPoints": 5000,
+        "ownershipType": "COMPOSITION"
+      },
+      "sourceFragmentId": "frag_src_credit_v1_2_afd8e7e4",
+      "sourceQuote": "50%",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_nova_master",
+      "contributorCandidate": "Nova Rhee",
+      "claimType": "PERCENTAGE",
+      "value": {
+        "basisPoints": 5000,
+        "ownershipType": "MASTER"
+      },
+      "sourceFragmentId": "frag_src_credit_v1_2_afd8e7e4",
+      "sourceQuote": "50%,50%",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_jules_name",
+      "contributorCandidate": "Jules Han",
+      "claimType": "CONTRIBUTOR_NAME",
+      "value": "Jules Han",
+      "sourceFragmentId": "frag_src_credit_v1_3_720deeee",
+      "sourceQuote": "Jules Han",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_jules_alias",
+      "contributorCandidate": "Jules Han",
+      "claimType": "ALIAS",
+      "value": "J. Han",
+      "sourceFragmentId": "frag_src_chat_4_85b8be51",
+      "sourceQuote": "J. Han",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_jules_producer",
+      "contributorCandidate": "Jules Han",
+      "claimType": "ROLE",
+      "value": "producer",
+      "sourceFragmentId": "frag_src_credit_v1_3_720deeee",
+      "sourceQuote": "producer",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_jules_writer",
+      "contributorCandidate": "Jules Han",
+      "claimType": "ROLE",
+      "value": "writer",
+      "sourceFragmentId": "frag_src_email_2_ecd203f1",
+      "sourceQuote": "producer and writer",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_jules_composition",
+      "contributorCandidate": "Jules Han",
+      "claimType": "PERCENTAGE",
+      "value": {
+        "basisPoints": 3500,
+        "ownershipType": "COMPOSITION"
+      },
+      "sourceFragmentId": "frag_src_credit_v1_3_720deeee",
+      "sourceQuote": "35%",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_jules_master",
+      "contributorCandidate": "Jules Han",
+      "claimType": "PERCENTAGE",
+      "value": {
+        "basisPoints": 3000,
+        "ownershipType": "MASTER"
+      },
+      "sourceFragmentId": "frag_src_credit_v1_3_720deeee",
+      "sourceQuote": "35%,30%",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_jules_wording",
+      "contributorCandidate": "Jules Han",
+      "claimType": "CREDIT_WORDING",
+      "value": "Produced by Jules Han",
+      "sourceFragmentId": "frag_src_email_3_905d2eeb",
+      "sourceQuote": "Produced by Jules Han",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_sora_name",
+      "contributorCandidate": "Sora Kim",
+      "claimType": "CONTRIBUTOR_NAME",
+      "value": "Sora Kim",
+      "sourceFragmentId": "frag_src_credit_v1_4_8db14b2f",
+      "sourceQuote": "Sora Kim",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_sora_role",
+      "contributorCandidate": "Sora Kim",
+      "claimType": "ROLE",
+      "value": "writer",
+      "sourceFragmentId": "frag_src_credit_v1_2_afd8e7e4",
+      "sourceQuote": "writer",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_sora_composition_25",
+      "contributorCandidate": "Sora Kim",
+      "claimType": "PERCENTAGE",
+      "value": {
+        "basisPoints": 2500,
+        "ownershipType": "COMPOSITION"
+      },
+      "sourceFragmentId": "frag_src_credit_v1_4_8db14b2f",
+      "sourceQuote": "25%",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_sora_composition_20",
+      "contributorCandidate": "Sora Kim",
+      "claimType": "PERCENTAGE",
+      "value": {
+        "basisPoints": 2000,
+        "ownershipType": "COMPOSITION"
+      },
+      "sourceFragmentId": "frag_src_chat_2_f8f7c783",
+      "sourceQuote": "composition share was 20%",
+      "confidence": 0.95,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_sora_master",
+      "contributorCandidate": "Sora Kim",
+      "claimType": "PERCENTAGE",
+      "value": {
+        "basisPoints": 2000,
+        "ownershipType": "MASTER"
+      },
+      "sourceFragmentId": "frag_src_credit_v1_4_8db14b2f",
+      "sourceQuote": "25%,20%",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_lena_name",
+      "contributorCandidate": "Lena Cho",
+      "claimType": "CONTRIBUTOR_NAME",
+      "value": "Lena Cho",
+      "sourceFragmentId": "frag_src_chat_3_d77a5d5e",
+      "sourceQuote": "Lena Cho",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_lena_role",
+      "contributorCandidate": "Lena Cho",
+      "claimType": "ROLE",
+      "value": "featured vocalist",
+      "sourceFragmentId": "frag_src_notes_3_4c23e3c7",
+      "sourceQuote": "Featured vocal recorded by Lena Cho",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_theo_name",
+      "contributorCandidate": "Theo Lim",
+      "claimType": "CONTRIBUTOR_NAME",
+      "value": "Theo Lim",
+      "sourceFragmentId": "frag_src_invoice_2_aa19b74d",
+      "sourceQuote": "Theo Lim",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_theo_role",
+      "contributorCandidate": "Theo Lim",
+      "claimType": "ROLE",
+      "value": "mixing engineer",
+      "sourceFragmentId": "frag_src_notes_4_eb65a80f",
+      "sourceQuote": "completed the mix",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_title_current",
+      "contributorCandidate": null,
+      "claimType": "WORK_TITLE",
+      "value": "GLASS CITY",
+      "sourceFragmentId": "frag_src_metadata_1_c8cea3cc",
+      "sourceQuote": "GLASS CITY",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_title_old",
+      "contributorCandidate": null,
+      "claimType": "WORK_TITLE",
+      "value": "CITY OF GLASS",
+      "sourceFragmentId": "frag_src_credit_v1_2_afd8e7e4",
+      "sourceQuote": "CITY OF GLASS",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_artist",
+      "contributorCandidate": "Nova Rhee",
+      "claimType": "ARTIST_NAME",
+      "value": "NOVA RHEE",
+      "sourceFragmentId": "frag_src_metadata_1_c8cea3cc",
+      "sourceQuote": "NOVA RHEE",
+      "confidence": 0.99,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_sample",
+      "contributorCandidate": null,
+      "claimType": "SAMPLE_MENTION",
+      "value": "old jazz loop",
+      "sourceFragmentId": "frag_src_sample_1_26ccc2f8",
+      "sourceQuote": "old jazz loop",
+      "confidence": 1,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "claimId": "claim_unconfirmed",
+      "contributorCandidate": "Jules Han",
+      "claimType": "CONFIRMATION_STATEMENT",
+      "value": false,
+      "sourceFragmentId": "frag_src_email_4_686207d2",
+      "sourceQuote": "not confirmed the final splits",
+      "confidence": 1,
+      "modelVersion": "fixture/glass-city-v1",
+      "extractionRunId": "run_fixture_glass_city_v1",
+      "schemaVersion": "1.0.0"
+    }
+  ],
+  "conflicts": [
+    {
+      "conflictId": "conflict_rule_composition_split_total",
+      "ruleId": "RULE_COMPOSITION_SPLIT_TOTAL",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "BLOCKER",
+      "title": "Composition split totals 110%",
+      "description": "The recorded composition shares total 110%, not 100%.",
+      "blocking": true,
+      "contributorIds": [
+        "contrib_nova",
+        "contrib_jules",
+        "contrib_sora"
+      ],
+      "claimIds": [
+        "claim_nova_composition",
+        "claim_jules_composition",
+        "claim_sora_composition_25"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_credit_v1_2_afd8e7e4",
+        "frag_src_credit_v1_3_720deeee",
+        "frag_src_credit_v1_4_8db14b2f"
+      ],
+      "remediation": "Ask the writers to confirm one final set of shares totaling exactly 100%.",
+      "status": "OPEN"
+    },
+    {
+      "conflictId": "conflict_rule_contributor_duplicate",
+      "ruleId": "RULE_CONTRIBUTOR_DUPLICATE",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "ERROR",
+      "title": "Likely duplicate: Jules Han / J. Han",
+      "description": "The same surname and matching initial appear as a name and an alias.",
+      "blocking": false,
+      "contributorIds": [
+        "contrib_jules"
+      ],
+      "claimIds": [
+        "claim_jules_name",
+        "claim_jules_alias"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_credit_v1_3_720deeee",
+        "frag_src_chat_4_85b8be51"
+      ],
+      "remediation": "Ask Jules to approve the alias mapping. Do not merge automatically.",
+      "status": "OPEN"
+    },
+    {
+      "conflictId": "conflict_rule_contributor_missing",
+      "ruleId": "RULE_CONTRIBUTOR_MISSING",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "ERROR",
+      "title": "Featured vocalist is missing from the credit draft",
+      "description": "Lena Cho appears in chat and session notes but not in credit_draft_v1.csv.",
+      "blocking": false,
+      "contributorIds": [
+        "contrib_lena"
+      ],
+      "claimIds": [
+        "claim_lena_name",
+        "claim_lena_role"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_chat_3_d77a5d5e",
+        "frag_src_notes_3_4c23e3c7"
+      ],
+      "remediation": "Confirm Lena's preferred display credit and add it to the final ledger.",
+      "status": "OPEN"
+    },
+    {
+      "conflictId": "conflict_rule_percentage_conflict",
+      "ruleId": "RULE_PERCENTAGE_CONFLICT",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "ERROR",
+      "title": "Sora Kim has conflicting composition shares",
+      "description": "The credit draft says 25%, while the session chat says 20%.",
+      "blocking": false,
+      "contributorIds": [
+        "contrib_sora"
+      ],
+      "claimIds": [
+        "claim_sora_composition_25",
+        "claim_sora_composition_20"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_credit_v1_4_8db14b2f",
+        "frag_src_chat_2_f8f7c783"
+      ],
+      "remediation": "Ask Sora and the other writers which value belongs in the final ledger.",
+      "status": "OPEN"
+    },
+    {
+      "conflictId": "conflict_rule_title_consistency",
+      "ruleId": "RULE_TITLE_CONSISTENCY",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "ERROR",
+      "title": "Title mismatch across sources",
+      "description": "Current metadata says GLASS CITY; the v1 credit draft says CITY OF GLASS.",
+      "blocking": false,
+      "contributorIds": [],
+      "claimIds": [
+        "claim_title_current",
+        "claim_title_old"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_metadata_1_c8cea3cc",
+        "frag_src_credit_v1_2_afd8e7e4"
+      ],
+      "remediation": "Confirm the release title and retire the outdated title value.",
+      "status": "OPEN"
+    },
+    {
+      "conflictId": "conflict_rule_role_consistency",
+      "ruleId": "RULE_ROLE_CONSISTENCY",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "WARNING",
+      "title": "Jules Han's writer role is absent from the v1 credit draft",
+      "description": "The email says producer and writer, but the old sheet lists producer only.",
+      "blocking": false,
+      "contributorIds": [
+        "contrib_jules"
+      ],
+      "claimIds": [
+        "claim_jules_producer",
+        "claim_jules_writer"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_credit_v1_3_720deeee",
+        "frag_src_email_2_ecd203f1"
+      ],
+      "remediation": "Confirm both roles before export.",
+      "status": "OPEN"
+    },
+    {
+      "conflictId": "conflict_rule_sample_mention_review",
+      "ruleId": "RULE_SAMPLE_MENTION_REVIEW",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "ERROR",
+      "title": "Sample mention requires human review",
+      "description": "An old jazz loop is mentioned, while its review status remains unresolved.",
+      "blocking": false,
+      "contributorIds": [],
+      "claimIds": [
+        "claim_sample"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_sample_1_26ccc2f8"
+      ],
+      "remediation": "Route this item to a qualified human reviewer; do not infer clearance.",
+      "status": "OPEN"
+    },
+    {
+      "conflictId": "conflict_rule_contact_required",
+      "ruleId": "RULE_CONTACT_REQUIRED",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "WARNING",
+      "title": "Contributor contact is missing",
+      "description": "No contact address is available for Lena Cho in the supplied materials.",
+      "blocking": false,
+      "contributorIds": [
+        "contrib_lena"
+      ],
+      "claimIds": [
+        "claim_lena_name"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_chat_3_d77a5d5e"
+      ],
+      "remediation": "Add a contact address only with the contributor's consent.",
+      "status": "OPEN"
+    },
+    {
+      "conflictId": "conflict_rule_credit_wording_required",
+      "ruleId": "RULE_CREDIT_WORDING_REQUIRED",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "WARNING",
+      "title": "Theo Lim's display credit is missing",
+      "description": "The mixing contribution is supported, but final display wording is absent.",
+      "blocking": false,
+      "contributorIds": [
+        "contrib_theo"
+      ],
+      "claimIds": [
+        "claim_theo_name",
+        "claim_theo_role"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_invoice_2_aa19b74d",
+        "frag_src_notes_4_eb65a80f"
+      ],
+      "remediation": "Ask Theo to confirm preferred credit wording.",
+      "status": "OPEN"
+    },
+    {
+      "conflictId": "conflict_rule_outdated_source",
+      "ruleId": "RULE_OUTDATED_SOURCE",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "WARNING",
+      "title": "An outdated credit draft is still in the source set",
+      "description": "credit_draft_v1.csv is version 1 and not marked current.",
+      "blocking": false,
+      "contributorIds": [],
+      "claimIds": [
+        "claim_title_old"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_credit_v1_2_afd8e7e4"
+      ],
+      "remediation": "Keep it as evidence, but exclude it from final-value precedence.",
+      "status": "OPEN"
+    },
+    {
+      "conflictId": "conflict_rule_split_type_separation",
+      "ruleId": "RULE_SPLIT_TYPE_SEPARATION",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "ERROR",
+      "title": "Composition and master ownership are mixed in one table",
+      "description": "The v1 sheet places two different ownership types side by side without approval context.",
+      "blocking": false,
+      "contributorIds": [
+        "contrib_nova",
+        "contrib_jules",
+        "contrib_sora"
+      ],
+      "claimIds": [
+        "claim_nova_composition",
+        "claim_nova_master",
+        "claim_jules_composition",
+        "claim_jules_master"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_credit_v1_2_afd8e7e4",
+        "frag_src_credit_v1_3_720deeee"
+      ],
+      "remediation": "Review composition and master ownership as separate ledgers.",
+      "status": "OPEN"
+    },
+    {
+      "conflictId": "conflict_rule_unconfirmed_contributor",
+      "ruleId": "RULE_UNCONFIRMED_CONTRIBUTOR",
+      "ruleVersion": "2026-07-22.1",
+      "severity": "WARNING",
+      "title": "Contributor confirmations are outstanding",
+      "description": "The final splits have not been acknowledged by all listed contributors.",
+      "blocking": false,
+      "contributorIds": [
+        "contrib_nova",
+        "contrib_jules",
+        "contrib_sora"
+      ],
+      "claimIds": [
+        "claim_unconfirmed"
+      ],
+      "sourceFragmentIds": [
+        "frag_src_email_4_686207d2"
+      ],
+      "remediation": "Send private workflow confirmation requests after the open split is corrected.",
+      "status": "OPEN"
+    }
+  ],
+  "readiness": {
+    "score": 18,
+    "status": "BLOCKED",
+    "conflictCounts": {
+      "INFO": 0,
+      "WARNING": 5,
+      "ERROR": 6,
+      "BLOCKER": 1
+    },
+    "policyVersion": "2026-07-22.1",
+    "explanation": [
+      "Start at 100; subtract 30 per blocker, 7 per error, and 2 per warning.",
+      "1 blocker(s), 6 error(s), and 5 warning(s) remain open.",
+      "This is an internal workflow state, not an industry certification or legal conclusion."
+    ]
+  },
+  "agentRun": {
+    "agentRunId": "agent_fixture_1784682000000",
+    "projectId": "project_glass_city",
+    "agentType": "release-operations",
+    "startedAt": "2026-07-22T01:00:00.000Z",
+    "completedAt": "2026-07-22T01:00:00.060Z",
+    "status": "SUCCEEDED",
+    "inputArtifactIds": [
+      "source_inventory_glass_city"
+    ],
+    "outputArtifactIds": [
+      "ledger_glass_city",
+      "conflicts_glass_city",
+      "readiness_glass_city"
+    ],
+    "modelBackend": "fixture",
+    "modelName": null,
+    "promptVersion": "fixture-v1",
+    "schemaVersion": "1.0.0",
+    "toolCalls": [
+      {
+        "toolCallId": "tool_01",
+        "tool": "list_documents",
+        "status": "SUCCEEDED",
+        "inputArtifactIds": [],
+        "outputArtifactIds": [
+          "src_chat",
+          "src_credit_v1",
+          "src_email",
+          "src_notes",
+          "src_invoice",
+          "src_metadata",
+          "src_sample"
+        ],
+        "startedAt": "2026-07-22T01:00:00.000Z",
+        "completedAt": "2026-07-22T01:00:00.005Z"
+      },
+      {
+        "toolCallId": "tool_02",
+        "tool": "fragment_sources",
+        "status": "SUCCEEDED",
+        "inputArtifactIds": [
+          "src_chat",
+          "src_credit_v1",
+          "src_email",
+          "src_notes",
+          "src_invoice",
+          "src_metadata",
+          "src_sample"
+        ],
+        "outputArtifactIds": [
+          "frag_src_chat_1_0d31651c",
+          "frag_src_chat_2_f8f7c783",
+          "frag_src_chat_3_d77a5d5e",
+          "frag_src_chat_4_85b8be51",
+          "frag_src_chat_5_57ad67d0",
+          "frag_src_chat_6_99881959",
+          "frag_src_credit_v1_1_e62dfeb9",
+          "frag_src_credit_v1_2_afd8e7e4",
+          "frag_src_credit_v1_3_720deeee",
+          "frag_src_credit_v1_4_8db14b2f",
+          "frag_src_credit_v1_5_b20c3f1b",
+          "frag_src_email_1_461573bd",
+          "frag_src_email_2_ecd203f1",
+          "frag_src_email_3_905d2eeb",
+          "frag_src_email_4_686207d2",
+          "frag_src_notes_1_d6c33f1b",
+          "frag_src_notes_2_81f3d5d8",
+          "frag_src_notes_3_4c23e3c7",
+          "frag_src_notes_4_eb65a80f",
+          "frag_src_notes_5_88406719",
+          "frag_src_invoice_1_4fb52d67",
+          "frag_src_invoice_2_aa19b74d",
+          "frag_src_metadata_1_c8cea3cc",
+          "frag_src_sample_1_26ccc2f8",
+          "frag_src_sample_2_924ba53e",
+          "frag_src_sample_3_52a34331"
+        ],
+        "startedAt": "2026-07-22T01:00:00.010Z",
+        "completedAt": "2026-07-22T01:00:00.015Z"
+      },
+      {
+        "toolCallId": "tool_03",
+        "tool": "submit_structured_claims",
+        "status": "SUCCEEDED",
+        "inputArtifactIds": [
+          "frag_src_chat_1_0d31651c",
+          "frag_src_chat_2_f8f7c783",
+          "frag_src_chat_3_d77a5d5e",
+          "frag_src_chat_4_85b8be51",
+          "frag_src_chat_5_57ad67d0",
+          "frag_src_chat_6_99881959",
+          "frag_src_credit_v1_1_e62dfeb9",
+          "frag_src_credit_v1_2_afd8e7e4",
+          "frag_src_credit_v1_3_720deeee",
+          "frag_src_credit_v1_4_8db14b2f",
+          "frag_src_credit_v1_5_b20c3f1b",
+          "frag_src_email_1_461573bd",
+          "frag_src_email_2_ecd203f1",
+          "frag_src_email_3_905d2eeb",
+          "frag_src_email_4_686207d2",
+          "frag_src_notes_1_d6c33f1b",
+          "frag_src_notes_2_81f3d5d8",
+          "frag_src_notes_3_4c23e3c7",
+          "frag_src_notes_4_eb65a80f",
+          "frag_src_notes_5_88406719",
+          "frag_src_invoice_1_4fb52d67",
+          "frag_src_invoice_2_aa19b74d",
+          "frag_src_metadata_1_c8cea3cc",
+          "frag_src_sample_1_26ccc2f8",
+          "frag_src_sample_2_924ba53e",
+          "frag_src_sample_3_52a34331"
+        ],
+        "outputArtifactIds": [
+          "claim_nova_name",
+          "claim_nova_role",
+          "claim_nova_composition",
+          "claim_nova_master",
+          "claim_jules_name",
+          "claim_jules_alias",
+          "claim_jules_producer",
+          "claim_jules_writer",
+          "claim_jules_composition",
+          "claim_jules_master",
+          "claim_jules_wording",
+          "claim_sora_name",
+          "claim_sora_role",
+          "claim_sora_composition_25",
+          "claim_sora_composition_20",
+          "claim_sora_master",
+          "claim_lena_name",
+          "claim_lena_role",
+          "claim_theo_name",
+          "claim_theo_role",
+          "claim_title_current",
+          "claim_title_old",
+          "claim_artist",
+          "claim_sample",
+          "claim_unconfirmed"
+        ],
+        "startedAt": "2026-07-22T01:00:00.020Z",
+        "completedAt": "2026-07-22T01:00:00.025Z"
+      },
+      {
+        "toolCallId": "tool_04",
+        "tool": "evaluate_deterministic_rules",
+        "status": "SUCCEEDED",
+        "inputArtifactIds": [
+          "claim_nova_name",
+          "claim_nova_role",
+          "claim_nova_composition",
+          "claim_nova_master",
+          "claim_jules_name",
+          "claim_jules_alias",
+          "claim_jules_producer",
+          "claim_jules_writer",
+          "claim_jules_composition",
+          "claim_jules_master",
+          "claim_jules_wording",
+          "claim_sora_name",
+          "claim_sora_role",
+          "claim_sora_composition_25",
+          "claim_sora_composition_20",
+          "claim_sora_master",
+          "claim_lena_name",
+          "claim_lena_role",
+          "claim_theo_name",
+          "claim_theo_role",
+          "claim_title_current",
+          "claim_title_old",
+          "claim_artist",
+          "claim_sample",
+          "claim_unconfirmed"
+        ],
+        "outputArtifactIds": [
+          "conflict_rule_composition_split_total",
+          "conflict_rule_contributor_duplicate",
+          "conflict_rule_contributor_missing",
+          "conflict_rule_percentage_conflict",
+          "conflict_rule_title_consistency",
+          "conflict_rule_role_consistency",
+          "conflict_rule_sample_mention_review",
+          "conflict_rule_contact_required",
+          "conflict_rule_credit_wording_required",
+          "conflict_rule_outdated_source",
+          "conflict_rule_split_type_separation",
+          "conflict_rule_unconfirmed_contributor"
+        ],
+        "startedAt": "2026-07-22T01:00:00.030Z",
+        "completedAt": "2026-07-22T01:00:00.035Z"
+      },
+      {
+        "toolCallId": "tool_05",
+        "tool": "calculate_readiness",
+        "status": "SUCCEEDED",
+        "inputArtifactIds": [
+          "conflict_rule_composition_split_total",
+          "conflict_rule_contributor_duplicate",
+          "conflict_rule_contributor_missing",
+          "conflict_rule_percentage_conflict",
+          "conflict_rule_title_consistency",
+          "conflict_rule_role_consistency",
+          "conflict_rule_sample_mention_review",
+          "conflict_rule_contact_required",
+          "conflict_rule_credit_wording_required",
+          "conflict_rule_outdated_source",
+          "conflict_rule_split_type_separation",
+          "conflict_rule_unconfirmed_contributor"
+        ],
+        "outputArtifactIds": [
+          "readiness_glass_city"
+        ],
+        "startedAt": "2026-07-22T01:00:00.040Z",
+        "completedAt": "2026-07-22T01:00:00.045Z"
+      },
+      {
+        "toolCallId": "tool_06",
+        "tool": "generate_fixture_questions",
+        "status": "SUCCEEDED",
+        "inputArtifactIds": [
+          "conflict_rule_composition_split_total",
+          "conflict_rule_contributor_duplicate",
+          "conflict_rule_contributor_missing",
+          "conflict_rule_percentage_conflict",
+          "conflict_rule_title_consistency",
+          "conflict_rule_role_consistency",
+          "conflict_rule_sample_mention_review",
+          "conflict_rule_contact_required",
+          "conflict_rule_credit_wording_required",
+          "conflict_rule_outdated_source",
+          "conflict_rule_split_type_separation",
+          "conflict_rule_unconfirmed_contributor"
+        ],
+        "outputArtifactIds": [
+          "question_01",
+          "question_02",
+          "question_03",
+          "question_04",
+          "question_05",
+          "question_06",
+          "question_07",
+          "question_08",
+          "question_09",
+          "question_10",
+          "question_11",
+          "question_12"
+        ],
+        "startedAt": "2026-07-22T01:00:00.050Z",
+        "completedAt": "2026-07-22T01:00:00.055Z"
+      }
+    ],
+    "retryCount": 0,
+    "latencyMs": 60,
+    "tokenUsage": null,
+    "estimatedCost": {
+      "minorUnits": 0,
+      "currency": "USD"
+    },
+    "deterministicRuleVersion": "2026-07-22.1",
+    "errorCode": null,
+    "humanApprovalStatus": "PENDING"
+  },
+  "disclaimer": "Fixture evidence only. This bundle is not a contract, legal opinion, rights determination, or clearance record."
+}
