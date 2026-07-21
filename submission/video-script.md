@@ -1,30 +1,41 @@
-# Video script — target 2:56
+# Video script — captured local fixture demo (1:27)
 
-**0:00–0:14 — Landing**  
-“Music credits often live across chats, sheets, emails, and memory. SESSIONPROOF turns those fragments into a reviewable contributor record before release.”
+**0:00–0:06 — Landing**
+“SESSIONPROOF turns scattered music-credit records into an evidence-linked review before release.”
 
-**0:14–0:31 — Fictional sources**  
-“This fictional GLASS CITY release contains seven source files. The public demo is clearly marked fixture mode; it does not pretend to be a production Gemini call.”
+**0:06–0:12 — Workflow**
+“The workflow keeps source evidence, AI candidate extraction, deterministic rules, human review, and export separate.”
 
-**0:31–0:53 — Production AI evidence**  
-“In the deployed path, Gemini extracts candidate contribution claims into a strict schema. Every claim must reference an exact fragment and quote. Unsupported output is rejected.”
+**0:12–0:19 — Fictional sources**
+“This public GLASS CITY demo uses seven fictional files. Fixture mode makes zero Gemini calls.”
 
-**0:53–1:19 — 110% conflict and evidence**  
-“Deterministic code—not the language model—adds Nova 50, Jules 35, and Sora 25, detects 110 percent, and shows the file, line, quote, confidence, and versioned rule.”
+**0:19–0:27 — Agent output**
+“The local agent creates 25 supported claims and flags 12 unresolved conflicts. Readiness is 18/100: BLOCKED.”
 
-**1:19–1:42 — Other findings**  
-“It also finds a missing featured vocalist, a likely alias, a conflicting Sora share, an outdated title, and an old jazz-loop mention that remains human review. It never decides ownership or sample clearance.”
+**0:27–0:36 — Conflict evidence**
+“Deterministic code detects the 110% composition total. The inspector preserves the file, lines, exact quote, confidence, and rule.”
 
-**1:42–2:05 — Questions and acknowledgement**  
-“The agent drafts the smallest questions needed. This private workflow preview shows only Lena's proposed featured-vocal credit. Her response is an acknowledgement, not a legal signature.”
+**0:36–0:43 — Contributor ledger**
+“Composition and master ownership remain separate. The system never invents missing shares or decides ownership.”
 
-**2:05–2:27 — Recompute and export**  
-“The system recomputes readiness from open conflicts and exports the ledger, claims, conflict report, confirmation status, evidence bundle, and PDF review pack.”
+**0:43–0:50 — Trace**
+“The trace records tool steps, rule version, readiness output, and the truthful fixture backend: Gemini calls 0.”
 
-**2:27–2:46 — Cloud and trace**  
-“The live business runs on Cloud Run with Firestore, private Storage, Vertex AI Gemini, Secret Manager, redacted logs, and versioned tool traces. Split math and release gates remain deterministic.”
+**0:50–0:58 — Questions and exports**
+“The agent asks focused clarification questions and exports the ledger, claims, conflicts, evidence bundle, and PDF review pack.”
 
-**2:46–2:56 — Honest business proof**  
-Replace with verified facts only: “We have `[N]` independent users, `[N]` arms-length paid customers, `$[X]` revenue, `$[Y]` costs, and `$[Z]` marketing spend.” If absent, say: “Customer and revenue validation is still in progress and is not represented as complete.”
+**0:58–1:05 — Contributor acknowledgement**
+“A contributor sees only their proposed credit. An acknowledgement is recorded as workflow evidence, not a legal signature.”
 
-No copyrighted music, real artist files, private customer data, fake metrics, or unreadable small text.
+**1:05–1:12 — Trust boundary**
+“Production design keeps uploads private, rejects unsupported claims, and leaves samples and legal clearance to humans.”
+
+**1:12–1:20 — Operator evidence**
+“Current business evidence is honest: 0 real users, 0 paid customers, $0 revenue, and 0 production Gemini calls.”
+
+**1:20–1:27 — Close**
+“Local fixture demo complete. Google Cloud deployment, live Gemini evidence, users, and revenue remain unverified.”
+
+Captured artifact: `output/video/sessionproof-local-fixture-demo.webm` (86.76 seconds, 1280×720). The ignored local output must be uploaded unchanged to an approved public video host before the URL can be added to the submission. It is an honest product walkthrough, but it does not satisfy the separate production Google Cloud, deployed Gemini, customer, or revenue evidence gates.
+
+No copyrighted music, real artist files, private customer data, fake metrics, or unverified production claims are present.

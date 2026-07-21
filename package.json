@@ -23,6 +23,7 @@
     "export:demo": "tsx scripts/export-demo.ts",
     "submission:check": "tsx scripts/submission-check.ts",
     "screenshots": "tsx scripts/capture-screenshots.ts",
+    "video": "tsx scripts/capture-demo-video.ts",
     "verify": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm test:integration && pnpm test:security && pnpm build && pnpm submission:check"
   },
   "dependencies": {
