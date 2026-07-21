@@ -14,6 +14,7 @@ Updated: 2026-07-22T02:00:58+09:00
 - Per-request CSP nonces with forced dynamic rendering, so strict script policy and React interaction work together.
 - Pricing hypothesis, pilot consent intake, trust page, honest operator metrics, financial/customer templates.
 - Reproducible desktop/mobile screenshots and production-shaped Cloud Run deployment assets.
+- Public MIT-licensed Git repository with project-specific history at https://github.com/estona815/sessionproof.
 
 ## Locally verified
 
@@ -31,7 +32,7 @@ Updated: 2026-07-22T02:00:58+09:00
 - Live Gemini structured call and API usage record.
 - Email magic-link authentication and production deletion workflow.
 - Actual customers, arms-length revenue, feedback, testimonials, costs, or marketing spend.
-- Public repository sharing, public demo video, and final Devpost submission.
+- Public demo video and final Devpost submission.
 
 ## Gates
 

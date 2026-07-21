@@ -13,6 +13,6 @@ The working business model is a free fictional demo, a one-song paid Release Cre
 Economic impact comes from helping independent creators preserve contributor work evidence and reducing the administrative cost of a professional release. A later human-review route could create scoped work for qualified music metadata and rights-administration specialists without pretending the AI is a lawyer or rights authority.
 
 **Built with:** Next.js, TypeScript, React, Zod, Google Gen AI SDK, Cloud Run, Firestore, Cloud Storage, Secret Manager, Vertex AI Gemini, pdf-lib, Vitest, Playwright.  
-**Repository:** `[REPOSITORY URL REQUIRED]`  
+**Repository:** https://github.com/estona815/sessionproof
 **Demo:** `[PRODUCTION URL REQUIRED]`  
 **Video:** `[PUBLIC VIDEO URL REQUIRED]`

@@ -23,4 +23,4 @@ The product concept, GLASS CITY fixture, schemas, claims, rule engine, readiness
 
 ## Evidence limitation
 
-Because the workspace root has no commits, there is no first-commit timestamp or Git history proving the creation sequence yet. A new commit created now would establish forward provenance but cannot retroactively prove earlier absence. Before submission, create a reviewable project-specific repository and preserve its complete commit history. Do not rewrite history to simulate an earlier date.
+The workspace root had no commits, so Git cannot retroactively prove the creation sequence before the first project commit. The project-specific public repository now preserves forward provenance from commit `2aff4f690ef1d86994532e14ca5f9dd47ede5952`; its complete history must remain reviewable. This attestation does not claim evidence for the period before that commit.

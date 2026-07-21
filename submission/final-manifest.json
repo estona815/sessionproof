@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-22T01:38:18+09:00",
+  "generatedAt": "2026-07-22T02:15:52+09:00",
   "project": "SESSIONPROOF",
   "category": "Entrepreneurship & Job Creation",
-  "repositoryUrl": null,
+  "repositoryUrl": "https://github.com/estona815/sessionproof",
   "productionUrl": null,
   "videoUrl": null,
   "productReady": false,
@@ -38,7 +38,6 @@
   },
   "blockingConditions": [
     "Entrant eligibility and representative not recorded",
-    "Project repository history and sharing not established",
     "Google Cloud deployment and service round trips not verified",
     "Deployed Gemini API call not verified",
     "Real users, arms-length revenue, costs, and feedback absent",

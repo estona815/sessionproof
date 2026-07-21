@@ -6,7 +6,7 @@
 - [x] Gemini/GCP adapter architecture and evidence boundary
 - [x] Draft description, business narrative, video script, testing instructions, P&L/customer templates
 - [ ] Eligible entrant identity/team representative confirmed
-- [ ] Project-specific Git history and repository URL
+- [x] Project-specific public Git history and repository URL
 - [ ] Cloud Run public URL and judge access through judging end
 - [ ] Live Google Cloud service evidence
 - [ ] Live deployed Gemini API call and production agent logs
