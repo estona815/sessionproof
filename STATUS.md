@@ -1,6 +1,6 @@
 # Product status
 
-Updated: 2026-07-22T03:03:15+09:00
+Updated: 2026-07-22T03:22:46+09:00
 
 ## Implemented
 
@@ -17,7 +17,7 @@ Updated: 2026-07-22T03:03:15+09:00
 - Public MIT-licensed Git repository with project-specific history at https://github.com/estona815/sessionproof.
 - Public 86.76-second local-fixture product walkthrough at https://youtu.be/efN_EcEn03w.
 - Devpost registration as a solo personal entrant with the eligibility/rules self-attestation accepted.
-- Devpost project draft created at https://devpost.com/software/sessionproof with overview, public story, technology tags, repository/product-evidence links, video, category, AI/business answers, zero-activity metrics, country, and P&L evidence completed.
+- Devpost project submitted at https://devpost.com/software/sessionproof with overview, public story, technology tags, repository/product-evidence links, video, category, AI/business answers, zero-activity metrics, country, P&L evidence, and zero-revenue evidence completed.
 
 ## Locally verified
 
@@ -36,7 +36,6 @@ Updated: 2026-07-22T03:03:15+09:00
 - Live Gemini structured call and API usage record.
 - Email magic-link authentication and production deletion workflow.
 - Actual customers, arms-length revenue, feedback, testimonials, costs, or marketing spend.
-- Final Devpost submission. The required revenue-evidence native upload did not persist automated PNG, JPEG, or CSV selections; every other required field is saved.
 
 ## Gates
 
@@ -46,4 +45,4 @@ BUSINESS_EVIDENCE_READY=false
 SUBMISSION_READY=false
 ```
 
-These values must not change without live, reviewable evidence.
+These evidence-readiness values remain false even though the current project was transmitted to Devpost. They must not change without live, reviewable evidence.

@@ -1,4 +1,4 @@
-# Devpost submission draft
+# Devpost submission
 
 **Title:** SESSIONPROOF — Evidence-Linked Music Credit Agent  
 **Tagline:** From messy session notes to confirmed credits before release.  
@@ -17,4 +17,6 @@ Economic impact comes from helping independent creators preserve contributor wor
 **Demo:** `[PRODUCTION URL REQUIRED]`  
 **Video:** https://youtu.be/efN_EcEn03w
 
-Devpost registration was completed on July 22, 2026 as a solo personal entrant with the eligibility/rules attestation accepted. The project draft is available at https://devpost.com/software/sessionproof. Final submission remains incomplete because the required revenue-evidence native upload did not persist automated PNG, JPEG, or CSV selections; all other required fields are saved.
+Devpost registration was completed on July 22, 2026 as a solo personal entrant with the eligibility/rules attestation accepted. The required P&L and zero-revenue evidence were uploaded, the Official Rules and Devpost Terms of Service were accepted, and Devpost confirmed `Project submitted!`. The submitted project is available at https://devpost.com/software/sessionproof.
+
+Submission does not change the evidence boundary: the public walkthrough remains a local fixture with zero Gemini calls, and live Google Cloud deployment, production authentication, real users, paying customers, and revenue remain unverified.

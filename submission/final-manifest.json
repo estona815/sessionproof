@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-22T03:03:15+09:00",
+  "generatedAt": "2026-07-22T03:22:46+09:00",
   "project": "SESSIONPROOF",
   "category": "Entrepreneurship & Job Creation",
   "repositoryUrl": "https://github.com/estona815/sessionproof",
@@ -9,6 +9,13 @@
   "productReady": false,
   "businessEvidenceReady": false,
   "submissionReady": false,
+  "devpostSubmission": {
+    "submitted": true,
+    "submittedAt": "2026-07-22T03:22:00+09:00",
+    "projectUrl": "https://devpost.com/software/sessionproof",
+    "officialRulesAndTermsAccepted": true,
+    "revenueEvidenceFormat": "pdf"
+  },
   "fixture": {
     "verified": true,
     "geminiCalls": 0,
@@ -40,7 +47,6 @@
     "Google Cloud deployment and service round trips not verified",
     "Deployed Gemini API call not verified",
     "Real users, arms-length revenue, costs, and feedback absent",
-    "Production authentication, deletion, and isolation incomplete",
-    "Devpost draft is complete except for the required revenue-evidence upload; the native file control did not persist automated PNG, JPEG, or CSV selections, so final submission is incomplete"
+    "Production authentication, deletion, and isolation incomplete"
   ]
 }

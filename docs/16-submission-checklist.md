@@ -14,6 +14,6 @@
 - [ ] Arms-length revenue, monthly revenue, related-party separation, costs, marketing spend
 - [ ] Production auth, upload, confirmation, deletion, and isolation tests
 - [x] Under-three-minute public video: https://youtu.be/efN_EcEn03w
-- [x] Devpost project draft and all non-revenue-upload required fields completed
-- [ ] Required revenue-evidence native upload persisted in Devpost
-- [ ] Final official rule recheck and Devpost submission
+- [x] Devpost project form and all required fields completed
+- [x] Required zero-revenue evidence PDF persisted in Devpost
+- [x] Official Rules and Devpost Terms accepted; final project submitted
