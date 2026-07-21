@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-22T02:37:09+09:00",
+  "generatedAt": "2026-07-22T03:03:15+09:00",
   "project": "SESSIONPROOF",
   "category": "Entrepreneurship & Job Creation",
   "repositoryUrl": "https://github.com/estona815/sessionproof",
@@ -41,6 +41,6 @@
     "Deployed Gemini API call not verified",
     "Real users, arms-length revenue, costs, and feedback absent",
     "Production authentication, deletion, and isolation incomplete",
-    "Devpost project creation is awaiting the interactive reCAPTCHA; final submission is incomplete"
+    "Devpost draft is complete except for the required revenue-evidence upload; the native file control did not persist automated PNG, JPEG, or CSV selections, so final submission is incomplete"
   ]
 }

@@ -743,11 +743,7 @@
       "title": "Composition split totals 110%",
       "description": "The recorded composition shares total 110%, not 100%.",
       "blocking": true,
-      "contributorIds": [
-        "contrib_nova",
-        "contrib_jules",
-        "contrib_sora"
-      ],
+      "contributorIds": ["contrib_nova", "contrib_jules", "contrib_sora"],
       "claimIds": [
         "claim_nova_composition",
         "claim_jules_composition",
@@ -769,17 +765,9 @@
       "title": "Likely duplicate: Jules Han / J. Han",
       "description": "The same surname and matching initial appear as a name and an alias.",
       "blocking": false,
-      "contributorIds": [
-        "contrib_jules"
-      ],
-      "claimIds": [
-        "claim_jules_name",
-        "claim_jules_alias"
-      ],
-      "sourceFragmentIds": [
-        "frag_src_credit_v1_3_720deeee",
-        "frag_src_chat_4_85b8be51"
-      ],
+      "contributorIds": ["contrib_jules"],
+      "claimIds": ["claim_jules_name", "claim_jules_alias"],
+      "sourceFragmentIds": ["frag_src_credit_v1_3_720deeee", "frag_src_chat_4_85b8be51"],
       "remediation": "Ask Jules to approve the alias mapping. Do not merge automatically.",
       "status": "OPEN"
     },
@@ -791,17 +779,9 @@
       "title": "Featured vocalist is missing from the credit draft",
       "description": "Lena Cho appears in chat and session notes but not in credit_draft_v1.csv.",
       "blocking": false,
-      "contributorIds": [
-        "contrib_lena"
-      ],
-      "claimIds": [
-        "claim_lena_name",
-        "claim_lena_role"
-      ],
-      "sourceFragmentIds": [
-        "frag_src_chat_3_d77a5d5e",
-        "frag_src_notes_3_4c23e3c7"
-      ],
+      "contributorIds": ["contrib_lena"],
+      "claimIds": ["claim_lena_name", "claim_lena_role"],
+      "sourceFragmentIds": ["frag_src_chat_3_d77a5d5e", "frag_src_notes_3_4c23e3c7"],
       "remediation": "Confirm Lena's preferred display credit and add it to the final ledger.",
       "status": "OPEN"
     },
@@ -813,17 +793,9 @@
       "title": "Sora Kim has conflicting composition shares",
       "description": "The credit draft says 25%, while the session chat says 20%.",
       "blocking": false,
-      "contributorIds": [
-        "contrib_sora"
-      ],
-      "claimIds": [
-        "claim_sora_composition_25",
-        "claim_sora_composition_20"
-      ],
-      "sourceFragmentIds": [
-        "frag_src_credit_v1_4_8db14b2f",
-        "frag_src_chat_2_f8f7c783"
-      ],
+      "contributorIds": ["contrib_sora"],
+      "claimIds": ["claim_sora_composition_25", "claim_sora_composition_20"],
+      "sourceFragmentIds": ["frag_src_credit_v1_4_8db14b2f", "frag_src_chat_2_f8f7c783"],
       "remediation": "Ask Sora and the other writers which value belongs in the final ledger.",
       "status": "OPEN"
     },
@@ -836,14 +808,8 @@
       "description": "Current metadata says GLASS CITY; the v1 credit draft says CITY OF GLASS.",
       "blocking": false,
       "contributorIds": [],
-      "claimIds": [
-        "claim_title_current",
-        "claim_title_old"
-      ],
-      "sourceFragmentIds": [
-        "frag_src_metadata_1_c8cea3cc",
-        "frag_src_credit_v1_2_afd8e7e4"
-      ],
+      "claimIds": ["claim_title_current", "claim_title_old"],
+      "sourceFragmentIds": ["frag_src_metadata_1_c8cea3cc", "frag_src_credit_v1_2_afd8e7e4"],
       "remediation": "Confirm the release title and retire the outdated title value.",
       "status": "OPEN"
     },
@@ -855,17 +821,9 @@
       "title": "Jules Han's writer role is absent from the v1 credit draft",
       "description": "The email says producer and writer, but the old sheet lists producer only.",
       "blocking": false,
-      "contributorIds": [
-        "contrib_jules"
-      ],
-      "claimIds": [
-        "claim_jules_producer",
-        "claim_jules_writer"
-      ],
-      "sourceFragmentIds": [
-        "frag_src_credit_v1_3_720deeee",
-        "frag_src_email_2_ecd203f1"
-      ],
+      "contributorIds": ["contrib_jules"],
+      "claimIds": ["claim_jules_producer", "claim_jules_writer"],
+      "sourceFragmentIds": ["frag_src_credit_v1_3_720deeee", "frag_src_email_2_ecd203f1"],
       "remediation": "Confirm both roles before export.",
       "status": "OPEN"
     },
@@ -878,12 +836,8 @@
       "description": "An old jazz loop is mentioned, while its review status remains unresolved.",
       "blocking": false,
       "contributorIds": [],
-      "claimIds": [
-        "claim_sample"
-      ],
-      "sourceFragmentIds": [
-        "frag_src_sample_1_26ccc2f8"
-      ],
+      "claimIds": ["claim_sample"],
+      "sourceFragmentIds": ["frag_src_sample_1_26ccc2f8"],
       "remediation": "Route this item to a qualified human reviewer; do not infer clearance.",
       "status": "OPEN"
     },
@@ -895,15 +849,9 @@
       "title": "Contributor contact is missing",
       "description": "No contact address is available for Lena Cho in the supplied materials.",
       "blocking": false,
-      "contributorIds": [
-        "contrib_lena"
-      ],
-      "claimIds": [
-        "claim_lena_name"
-      ],
-      "sourceFragmentIds": [
-        "frag_src_chat_3_d77a5d5e"
-      ],
+      "contributorIds": ["contrib_lena"],
+      "claimIds": ["claim_lena_name"],
+      "sourceFragmentIds": ["frag_src_chat_3_d77a5d5e"],
       "remediation": "Add a contact address only with the contributor's consent.",
       "status": "OPEN"
     },
@@ -915,17 +863,9 @@
       "title": "Theo Lim's display credit is missing",
       "description": "The mixing contribution is supported, but final display wording is absent.",
       "blocking": false,
-      "contributorIds": [
-        "contrib_theo"
-      ],
-      "claimIds": [
-        "claim_theo_name",
-        "claim_theo_role"
-      ],
-      "sourceFragmentIds": [
-        "frag_src_invoice_2_aa19b74d",
-        "frag_src_notes_4_eb65a80f"
-      ],
+      "contributorIds": ["contrib_theo"],
+      "claimIds": ["claim_theo_name", "claim_theo_role"],
+      "sourceFragmentIds": ["frag_src_invoice_2_aa19b74d", "frag_src_notes_4_eb65a80f"],
       "remediation": "Ask Theo to confirm preferred credit wording.",
       "status": "OPEN"
     },
@@ -938,12 +878,8 @@
       "description": "credit_draft_v1.csv is version 1 and not marked current.",
       "blocking": false,
       "contributorIds": [],
-      "claimIds": [
-        "claim_title_old"
-      ],
-      "sourceFragmentIds": [
-        "frag_src_credit_v1_2_afd8e7e4"
-      ],
+      "claimIds": ["claim_title_old"],
+      "sourceFragmentIds": ["frag_src_credit_v1_2_afd8e7e4"],
       "remediation": "Keep it as evidence, but exclude it from final-value precedence.",
       "status": "OPEN"
     },
@@ -955,21 +891,14 @@
       "title": "Composition and master ownership are mixed in one table",
       "description": "The v1 sheet places two different ownership types side by side without approval context.",
       "blocking": false,
-      "contributorIds": [
-        "contrib_nova",
-        "contrib_jules",
-        "contrib_sora"
-      ],
+      "contributorIds": ["contrib_nova", "contrib_jules", "contrib_sora"],
       "claimIds": [
         "claim_nova_composition",
         "claim_nova_master",
         "claim_jules_composition",
         "claim_jules_master"
       ],
-      "sourceFragmentIds": [
-        "frag_src_credit_v1_2_afd8e7e4",
-        "frag_src_credit_v1_3_720deeee"
-      ],
+      "sourceFragmentIds": ["frag_src_credit_v1_2_afd8e7e4", "frag_src_credit_v1_3_720deeee"],
       "remediation": "Review composition and master ownership as separate ledgers.",
       "status": "OPEN"
     },
@@ -981,17 +910,9 @@
       "title": "Contributor confirmations are outstanding",
       "description": "The final splits have not been acknowledged by all listed contributors.",
       "blocking": false,
-      "contributorIds": [
-        "contrib_nova",
-        "contrib_jules",
-        "contrib_sora"
-      ],
-      "claimIds": [
-        "claim_unconfirmed"
-      ],
-      "sourceFragmentIds": [
-        "frag_src_email_4_686207d2"
-      ],
+      "contributorIds": ["contrib_nova", "contrib_jules", "contrib_sora"],
+      "claimIds": ["claim_unconfirmed"],
+      "sourceFragmentIds": ["frag_src_email_4_686207d2"],
       "remediation": "Send private workflow confirmation requests after the open split is corrected.",
       "status": "OPEN"
     }
@@ -1019,14 +940,8 @@
     "startedAt": "2026-07-22T01:00:00.000Z",
     "completedAt": "2026-07-22T01:00:00.060Z",
     "status": "SUCCEEDED",
-    "inputArtifactIds": [
-      "source_inventory_glass_city"
-    ],
-    "outputArtifactIds": [
-      "ledger_glass_city",
-      "conflicts_glass_city",
-      "readiness_glass_city"
-    ],
+    "inputArtifactIds": ["source_inventory_glass_city"],
+    "outputArtifactIds": ["ledger_glass_city", "conflicts_glass_city", "readiness_glass_city"],
     "modelBackend": "fixture",
     "modelName": null,
     "promptVersion": "fixture-v1",
@@ -1221,9 +1136,7 @@
           "conflict_rule_split_type_separation",
           "conflict_rule_unconfirmed_contributor"
         ],
-        "outputArtifactIds": [
-          "readiness_glass_city"
-        ],
+        "outputArtifactIds": ["readiness_glass_city"],
         "startedAt": "2026-07-22T01:00:00.040Z",
         "completedAt": "2026-07-22T01:00:00.045Z"
       },

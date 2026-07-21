@@ -17,4 +17,4 @@ Economic impact comes from helping independent creators preserve contributor wor
 **Demo:** `[PRODUCTION URL REQUIRED]`  
 **Video:** https://youtu.be/efN_EcEn03w
 
-Devpost registration was completed on July 22, 2026 as a solo personal entrant with the eligibility/rules attestation accepted. Project creation and final submission remain incomplete.
+Devpost registration was completed on July 22, 2026 as a solo personal entrant with the eligibility/rules attestation accepted. The project draft is available at https://devpost.com/software/sessionproof. Final submission remains incomplete because the required revenue-evidence native upload did not persist automated PNG, JPEG, or CSV selections; all other required fields are saved.
